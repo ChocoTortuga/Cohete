@@ -1,0 +1,20 @@
+.flecha{
+    width: 70px;
+    height: 60px;
+}
+
+.size{
+    width: 15%;
+}
+
+.imagen{
+    vertical-align: sub;
+    position: relative;
+    top: 120px;
+    height: 50%;
+    width: 30%;
+}
+
+#reset{
+    width: 140px;
+}

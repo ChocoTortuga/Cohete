@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <!--Estilos CSS-->
+    <link href="estilos.css" rel="stylesheet">
+    <title>Cohete</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row text-center bg-dark text-light">
+            <h1>Controla el cohete</h1>
+            <h4>Página jQuery</h4>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-6 bg-secondary text-center">
+                <img src="Cohete.png" class="imagen">
+            </div>
+            <div class="col-6 bg-secondary">
+
+                <!--Flechas-->
+                <div class="m-2 bg-dark text-light p-2 rounded-3 text-center">
+                    <h3>Control de movimiento</h3>
+                    <hr>
+                    <!--Botones-->
+                    <button class="btn btn-light m-1 flecha d-block mx-auto hover" id="arriba"><i class="fas fa-arrow-up"></i></button>
+                    <button class="btn btn-light m-1 flecha" id="izquierda"><i class="fas fa-arrow-left"></i></button>
+                    <button class="btn btn-light m-1 flecha" id="abajo"><i class="fas fa-arrow-down"></i></button>
+                    <button class="btn btn-light m-1 flecha" id="derecha"><i class="fas fa-arrow-right"></i></button>
+                    <button class="btn btn-danger text-light m-2 d-block mx-auto" id="reset">Reset</button>
+                </div>
+                <!--Tamaños-->
+                <div class="m-2 bg-dark text-light p-2 rounded-2 text-center">
+                    <h3>Tamaños</h3>
+                    <hr>
+                    <!--Botones-->
+                    <button class="btn btn-light m-1 size" id="normal"><i class="fas fa-check-circle"></i> Normal</button>
+                    <button class="btn btn-light m-1 size" id="grande"><i class="fas fa-plus-circle"></i> Ampliar</button>
+                    <button class="btn btn-light m-1 size" id="chico"><i class="fas fa-minus-circle"></i> Reducir</button>
+                </div>
+                <!--Visibilidad-->
+                <div class="m-2 bg-dark text-light p-2 rounded-2 text-center">
+                    <h3>Visibilidad</h3>
+                    <hr>
+                    <!--Botones-->
+                    <button class="btn btn-light m-1" id="mostrar"><i class="fas fa-eye"></i> Mostrar</button>
+                    <button class="btn btn-light m-1" id="esconder"><i class="fas fa-eye-slash"></i> Esconder</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--Mi hoja JS-->
+    <script src="codigo.js"></script>
+  </body>
+</html>
